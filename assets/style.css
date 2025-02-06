@@ -6,11 +6,96 @@
 body {
     margin: 0;
     height: 100vh;
+    justify-content: center;
+    text-align: center;
+    background-color: #111111;
+    color: white; /*no gray names >:(*/
+    font-family: 'Terminus', monospace;
+    font-size: 44px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 36px;
+}
+
+img.ewheader {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margin {
+    margin-bottom: 4vh;
+    margin-top: 4vh;
+}
+
+.button {
+    border: none;
+    border-radius: 20px;
+    background-color: #333333;
+    color: white;
+    padding: 8vh 32vh;
+    text-align: center;
+    font-family: 'Terminus', monospace;
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-left: 4vh;
+    margin-right: 4vh;
+}
+
+.button:hover {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+#lgbutton {
+    padding: 8vh 79.65vh;
+}
+
+h6 {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.members {
+    margin-left: 12vh;
+    margin-right: 12vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: black;
-    color: grey;
-    font-family: 'Terminus', monospace;
-    font-size: 48px;
+}
+
+.member {
+    margin-left: 4vh;
+    margin-right: 4vh;
+    border-radius: 5vh;
+    padding: 0vh 5vh;
+}
+
+.membericon {
+    position:relative;
+    top:4vh;
+}
+
+br {
+    display: block;
+    margin: 10px 0;
+}
+
+i {
+    color: white;
+    position:relative;
+    bottom:8vh;
+}
+
+footer {
+    padding-bottom: 1vh;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
