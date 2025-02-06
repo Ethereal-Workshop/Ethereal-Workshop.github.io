@@ -35,7 +35,6 @@ img.ewheader {
     border-radius: 20px;
     background-color: #333333;
     color: white;
-    padding: 8vh 32vh;
     text-align: center;
     font-family: 'Terminus', monospace;
     font-size: 32px;
@@ -43,8 +42,11 @@ img.ewheader {
     text-decoration: none;
     transition-duration: 0.4s;
     cursor: pointer;
-    margin-left: 4vh;
-    margin-right: 4vh;
+    width: 64vh;
+    height: 16vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .button:hover {
