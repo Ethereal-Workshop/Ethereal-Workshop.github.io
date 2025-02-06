@@ -13,10 +13,17 @@ function detectmobile() {
 
 }
 
-if ( detectmobile() && document.documentElement.clientWidth <= 768 ){
+if (document.documentElement.clientWidth <= 768){
     window.location.href = 'mobile.html';
 }
 
 function toast(message) {
     Toastify({text: message, position: 'center', style: {background: '#333333', boxShadow: 'none', borderRadius: '20px'}}).showToast();
+}
+
+var interval = setInterval(checkLandscape, 200);
+function checkLandscape() {
+    if(window.innerHeight > window.innerWidth) {
+        window.location.href="mobile.html"
+    }
 }
