@@ -14,8 +14,3 @@ body {
     font-family: 'Terminus', monospace;
     font-size: 48px;
 }
-
-div.absolute {
-    position: absolute;
-    bottom: 10px;
-}
