@@ -83,12 +83,24 @@
             </div>
         </div>
     </div>
-    <footer style="background-color: #111111">
+    <footer style="background-color: #111111; position: relative;">
         <hr style="height:2px;border-width:0;color:white;background-color:white">
-        <div style="display: flex;">
-            <h6 style="text-align: left; margin-left: 4vh; bottom: 2vh;">&copy; Ethereal Workshop 2025</h6>
-            <div style="text-align: right; margin-left: auto; margin-right: 4vh; color: white;"><a onClick="window.scrollTo({top: 0, behavior: 'smooth'});"><h6 style="margin-left: 4vh; bottom: 2vh; cursor:pointer;">Top ↑</h6></a></div>
+        <div style="display: flex; align-items: center; justify-content: space-between; position: relative;">
+            <h6 style="text-align: left; margin-left: 4vh;">&copy; Ethereal Workshop 2025</h6>
+            <div style="display: flex; position: absolute; gap: 2vh; left: 50%; transform: translateX(-50%); color: white;">
+                <a onClick="toast('Redirecting...'); window.location.href='https://github.com/Ethereal-Workshop'">
+                    <h6 style="color: #57F287; cursor:pointer;">GitHub</h6>
+                </a>
+                <a onClick="toast('Redirecting...'); window.location.href='https://discord.gg/Wbg4sT632Q'">
+                    <h6 style="color: #5865F2; cursor:pointer;">Discord</h6>
+                </a>
+            </div>
+            <div style="margin-right: 4vh; color: white;">
+                <a onClick="window.scrollTo({top: 0, behavior: 'smooth'});">
+                    <h6 style="cursor:pointer;">Top ↑</h6>
+                </a>
+            </div>
         </div>
-    </footer>
+    </footer>    
     </body>
 </html>
