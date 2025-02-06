@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Terminus';
+    src: url('Terminus.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: grey;
+    font-family: 'Terminus', monospace;
+    font-size: 48px;
+}
