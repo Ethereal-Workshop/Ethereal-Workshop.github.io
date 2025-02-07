@@ -17,8 +17,22 @@ if (document.documentElement.clientWidth <= 768){
     window.location.href = 'mobile.html';
 }
 
+let EWToastify;
+
 function toast(message) {
-    Toastify({text: message, position: 'center', style: {background: '#333333', boxShadow: 'none', borderRadius: '20px'}}).showToast();
+  if (EWToastify) {
+    EWToastify.hideToast();
+  }
+  EWToastify = Toastify({
+    text: message,
+    position: 'center',
+    style: {
+      background: '#333333',
+      boxShadow: 'none',
+      borderRadius: '20px'
+    }
+  });
+  EWToastify.showToast();
 }
 
 var interval = setInterval(checkLandscape, 200);
