@@ -73,7 +73,7 @@ h6 {
 .member {
     margin-left: 4vh;
     margin-right: 4vh;
-    border-radius: 5vh;
+    width: 200px;
     padding: 0vh 5vh;
 }
 
