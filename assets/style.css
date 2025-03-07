@@ -9,7 +9,7 @@ body {
     justify-content: center;
     text-align: center;
     background-color: #111111;
-    color: white; /*no gray names >:(*/
+    color: white;
     font-family: 'Terminus', monospace;
     font-size: 44px;
     font-weight: bold;
@@ -46,16 +46,18 @@ img.ewheader {
     height: 16vh;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
 }
 
 .button:hover {
     background-color: #04AA6D;
     color: white;
-  }
+}
 
-#lgbutton {
-    padding: 8vh 79.65vh;
+@media (max-width: 800px) {
+    .button {
+        width: 64vw;
+        height: 16vh;
+    }
 }
 
 h6 {
@@ -63,41 +65,48 @@ h6 {
     font-size: 20px;
 }
 
+.member h6 {
+    margin: 20px;
+}
+
 .members {
-    margin-left: 12vh;
-    margin-right: 12vh;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    gap: 40px;
+    margin: 0 auto;
+    max-width: 1000px;
 }
 
 .member {
-    margin-left: 4vh;
-    margin-right: 4vh;
+    text-align: center;
     width: 200px;
-    padding: 0vh 5vh;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgba(39, 39, 39, 0.2);
+    backdrop-filter: blur(10px);
 }
+
 
 .membericon {
-    position:relative;
-    top:4vh;
-}
-
-br {
-    display: block;
-    margin: 10px 0;
+    width: 100px;
+    border-radius: 50%;
 }
 
 i {
+    margin: 5px;
     color: white;
-    position:relative;
-    bottom:8vh;
-}
-
-footer {
-    padding-bottom: 1vh;
+    cursor: pointer;
 }
 
 a {
-    color: white;
     text-decoration: none;
+    color: white;
+}
+
+@media (min-width: 800px) {
+    .socials {
+        position: relative;
+        bottom: 58px;
+    }
 }
