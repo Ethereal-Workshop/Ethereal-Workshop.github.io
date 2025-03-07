@@ -1,4 +1,3 @@
-// Example member data
 const memberinfo = [
     { member: "xmb9", discord: "988950574387068968", github: "EnterTheVoid-x86", role: "Owner of Ethereal Workshop" },
     { member: "Sophie", discord: "1012095822957133976", github: "sophiaasophieee", role: "Co-Owner of Ethereal Workshop" },
