@@ -7,7 +7,7 @@ const memberinfo = [
     { member: "Apple", discord: "1209096766075703368", github: "appleflyerv3", role: "Member of Ethereal Workshop" },
     { member: "Arbstro", discord: "1083909291091693708", github: "", role: "Member of Ethereal Workshop" },
     { member: "Writable", discord: "480818241145536513", github: "MunyDev", role: "Member of Ethereal Workshop" },
-    { member: "Kxtz", discord: "952792525637312552", github: "kxtzownsu", role: "Member of Ethereal Workshop" }
+    { member: "kxtz", discord: "952792525637312552", github: "kxtzownsu", role: "Member of Ethereal Workshop" }
 ];
 
 function renderMembers(data) {
