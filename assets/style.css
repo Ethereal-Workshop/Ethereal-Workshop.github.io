@@ -42,8 +42,6 @@ img.ewheader {
     text-decoration: none;
     transition-duration: 0.4s;
     cursor: pointer;
-    width: 64vh;
-    height: 16vh;
     margin-left: auto;
     margin-right: auto;
 }
@@ -53,12 +51,6 @@ img.ewheader {
     color: white;
 }
 
-@media (max-width: 800px) {
-    .button {
-        width: 64vw;
-        height: 16vh;
-    }
-}
 
 h6 {
     font-weight: normal;
@@ -109,4 +101,22 @@ a {
         position: relative;
         bottom: 58px;
     }
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+}
+
+.projects button {
+    width: 100%;
+    height: 100%;
+}
+
+.projects a {
+    width: 50%;
+    height: 50%;
+    margin: 0px 10px;
 }
