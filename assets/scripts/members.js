@@ -1,7 +1,6 @@
 const memberinfo = [
     { member: "xmb9", discord: "988950574387068968", github: "EnterTheVoid-x86", role: "Owner of Ethereal Workshop" },
     { member: "Sophie", discord: "1012095822957133976", github: "sophiaasophieee", role: "Co-Owner of Ethereal Workshop" },
-    { member: "Kelsea", discord: "1175643738752680030", github: "kelpseastem", role: "Member of Ethereal Workshop" },
     { member: "Rifting", discord: "", github: "rifting", role: "Member of Ethereal Workshop" },
     { member: "Boeing", discord: "1037713379780993114", github: "notboeing747", role: "Member of Ethereal Workshop" },
     { member: "Apple", discord: "1209096766075703368", github: "appleflyerv3", role: "Member of Ethereal Workshop" },
