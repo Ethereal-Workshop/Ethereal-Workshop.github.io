@@ -2,8 +2,8 @@ const memberinfo = [
     { member: "xmb9", discord: "988950574387068968", github: "EnterTheVoid-x86", website: "https://archima.xyz", role: "Owner of Ethereal Workshop" },
     { member: "Sophie", discord: "1012095822957133976", github: "sophiaasophieee", website: "https://soaphia.xyz", role: "Co-Owner of Ethereal Workshop" },
     { member: "Rifting", discord: "", github: "rifting", website: "", role: "Member of Ethereal Workshop" },
-    { member: "Boeing", discord: "1037713379780993114", github: "notboeing747", website: "", role: "Member of Ethereal Workshop" },
-    { member: "Apple", discord: "1209096766075703368", github: "appleflyerv3", website: "https://appleflyer.xyz", role: "Member of Ethereal Workshop" },
+    { member: "Boeing 747", discord: "1037713379780993114", github: "notboeing747", website: "", role: "Member of Ethereal Workshop" },
+    { member: "Appleflyer", discord: "1209096766075703368", github: "appleflyerv3", website: "https://appleflyer.xyz", role: "Member of Ethereal Workshop" },
     { member: "Arbstro", discord: "1083909291091693708", github: "", website: "", role: "Member of Ethereal Workshop" },
     { member: "Writable", discord: "480818241145536513", github: "MunyDev", website: "", role: "Member of Ethereal Workshop" },
     { member: "kxtz", discord: "952792525637312552", github: "kxtzownsu", website: "https://kxtz.dev", role: "Member of Ethereal Workshop" }
