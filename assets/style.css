@@ -58,6 +58,9 @@ img.ewheader {
         width: 64vw;
         height: 16vh;
     }
+    .mobile {
+        display: none
+    }
 }
 
 h6 {
@@ -108,5 +111,8 @@ a {
     .socials {
         position: relative;
         bottom: 58px;
+    }
+    .web {
+        display: none;
     }
 }
