@@ -1,7 +1,7 @@
 const memberinfo = [
     { member: "xmb9", discord: "988950574387068968", github: "EnterTheVoid-x86", website: "https://archima.xyz", role: "Owner of Ethereal Workshop", avatar: "988950574387068968/3813d82f009289a8caa9a7d73e7ee40b.png", color: "30cc74" },
     { member: "Sophie", discord: "1012095822957133976", github: "sophiaasophieee", website: "https://soaphia.xyz", role: "Co-Owner of Ethereal Workshop", avatar: "1012095822957133976/7fc07967da88f2eb47f176dd5d96d4ab.png", color: "ebaaee" },
-    { member: "Mr. Workshop", discord: "988950574387068968", website: "https://mrwork.shop", role: "The Bot of Ethereal Workshop", avatar: "1343722570872262787/2c3bfa3f0a7fb0c6bb19ec907bd64812.png", color: "1f8b4c" },
+    { member: "kxtz", discord: "952792525637312552", github: "kxtzownsu", website: "https://kxtz.dev", role: "Member of Ethereal Workshop", avatar: "952792525637312552/1d724b961ca632451638bc388cb98eda.png" },
     { member: "Rifting", discord: "", github: "rifting", website: "", role: "Member of Ethereal Workshop", avatar: "578375908247863296/0afae146413d1e4685256f255a045f85.png" },
     { member: "Boeing 747", discord: "1037713379780993114", github: "notboeing747", website: "", role: "Member of Ethereal Workshop", avatar: "1037713379780993114/f192e1b55c294f7368c45476055cdfb0.png" },
     { member: "Appleflyer", discord: "1209096766075703368", github: "appleflyerv3", website: "https://appleflyer.xyz", role: "Member of Ethereal Workshop", avatar: "1209096766075703368/93d576e4acd9d5391fea5ba7a2991f35.png" },
