@@ -4,7 +4,6 @@ const memberinfo = [
     { member: "kxtz", discord: "952792525637312552", github: "kxtzownsu", website: "https://kxtz.dev", role: "Co-Owner of Ethereal Workshop", avatar: "952792525637312552/1d724b961ca632451638bc388cb98eda.png" },
     { member: "Rifting", discord: "", github: "rifting", website: "", role: "Member of Ethereal Workshop", avatar: "578375908247863296/0afae146413d1e4685256f255a045f85.png" },
     { member: "Boeing 747", discord: "1037713379780993114", github: "notboeing747", website: "", role: "Member of Ethereal Workshop", avatar: "1037713379780993114/f192e1b55c294f7368c45476055cdfb0.png" },
-    { member: "Appleflyer", discord: "1209096766075703368", github: "appleflyerv3", website: "https://appleflyer.xyz", role: "Member of Ethereal Workshop", avatar: "1209096766075703368/93d576e4acd9d5391fea5ba7a2991f35.png" },
     { member: "arbstro", discord: "1083909291091693708", github: "", website: "https://arb.arbstro.workers.dev/", role: "Member of Ethereal Workshop", avatar: "1083909291091693708/42f49642d9e406b398f91aeb54696ef9.png" },
     { member: "Writable", discord: "480818241145536513", github: "MunyDev", website: "", role: "Member of Ethereal Workshop", avatar: "480818241145536513/8342048b6d00229f43b6c835c083abfb.png" },
 ];
