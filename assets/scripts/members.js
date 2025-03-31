@@ -1,5 +1,5 @@
 const memberinfo = [
-    { member: "xmb9", discord: "988950574387068968", github: "xmb9", website: "https://archima.xyz", role: "Co-Owner of Ethereal Workshop", avatar: "988950574387068968/3813d82f009289a8caa9a7d73e7ee40b.png", color: "30cc74" },
+    { member: "xmb9", discord: "988950574387068968", github: "xmb9", website: "https://archima.xyz", role: "Owner of Ethereal Workshop", avatar: "988950574387068968/3813d82f009289a8caa9a7d73e7ee40b.png", color: "30cc74" },
     { member: "Sophie", discord: "1012095822957133976", github: "sophiaasophieee", website: "https://soaphia.xyz", role: "Co-Owner of Ethereal Workshop", avatar: "1012095822957133976/7fc07967da88f2eb47f176dd5d96d4ab.png", color: "ebaaee" },
     { member: "kxtz", discord: "952792525637312552", github: "kxtzownsu", website: "https://kxtz.dev", role: "Co-Owner of Ethereal Workshop", avatar: "952792525637312552/1d724b961ca632451638bc388cb98eda.png" },
     { member: "Rifting", discord: "", github: "rifting", website: "", role: "Member of Ethereal Workshop", avatar: "578375908247863296/0afae146413d1e4685256f255a045f85.png" },
